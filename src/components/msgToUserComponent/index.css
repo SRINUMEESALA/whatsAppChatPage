@@ -1,0 +1,49 @@
+.eachMsgRec {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 5px; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.insideEachmsgR {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-radius: 0px 10px 10px 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.msgUserR {
+    font-size: 15px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.sendTimeR {
+    align-self: flex-end;
+    font-size: 9px;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.sendingImage {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.insideEachmsgR2 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 0px 10px 10px 10px;
+    padding: 10px;
+    margin-top: 10px;
+}

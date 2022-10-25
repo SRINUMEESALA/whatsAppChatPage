@@ -1,38 +1,174 @@
-.App {
-  text-align: center;
+.parentCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/premium-photo/raster-illustration-mountain-river-surrounded-by-green-forest-cloudy-weather-valley-mountain-ranges-rocks-stones-river-banks-natural-landscape-concept-3d-artwork-raster-background_76964-2222.jpg?w=740");
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chatCon {
+  width: 85%;
+  display: flex;
+  height: 90%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.LeftSection {
+  background-color: white;
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.RightSection {
+  background-color: #F2F2F2;
+  flex-grow: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.whatsappHead {
+  margin: 0px;
+  font-size: 13px;
+  color: #323f4b;
+  padding-left: 10px;
+  padding-top: 8px;
+  align-self: flex-start;
+  font-weight: bold;
+}
+
+.chatParent {
+  width: 90%;
+
+}
+
+.chatOptionsCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.chatHead {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.setAddCon {
+  flex-grow: 0.2;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.searchCon {
+  border-style: solid;
+  border-color: #9aa5b1;
+  border-width: 1px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.inputBox {
+  outline: none;
+  border-style: none;
+  font-family: sans-serif;
+  padding: 3px;
+  padding-left: 5px;
+  font-size: 15px;
+  width: 80%;
+}
+
+.chatListCon {
+  list-style: none;
+  padding: 0px;
+  height: 73vh;
+}
+
+.chatListCon::-webkit-scrollbar {
+  display: none;
+}
+
+.RightSection {
+  background-image: url("https://img.freepik.com/free-photo/gray-abstract-wireframe-technology-background_53876-101941.jpg?w=740&t=st=1666694714~exp=1666695314~hmac=e0bc925c1b0446fa2849c4c25898b121b29cfd7c5725bd7f2a5a9c96cba77470");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.windowOptsCon {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.winIcons {
+  width: 12%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.pic {
+  height: 23px;
+  width: 23px;
+}
+
+.callingCon {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  /* background-color: yellow; */
+}
+
+.status {
+  font-size: 11px;
+  color: #9aa5b1;
+}
+
+.callingOptsCon {
+  /* background-color: red; */
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.userNameHead {
+  font-family: sans-serif;
+  color: #1f2933;
+}
+
+.msgSendCon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F0FFFF;
+  padding: 8px;
+}
+
+.sendMsgInput {
+  outline: none;
+  flex-grow: 0.8;
+  border-radius: 7px;
+  border-style: none;
+  padding: 8px;
+}
+
+.chattingCon {
+  flex-grow: 1;
+  width: 96%;
+  align-self: center;
+  list-style: none;
+  padding: 0px;
+}
+
+.chattingCon::-webkit-scrollbar {
+  display: none;
 }

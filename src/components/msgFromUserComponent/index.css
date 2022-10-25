@@ -1,0 +1,44 @@
+.eachMsg {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 5px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.insideEachmsg {
+    background-color: #C1FFC1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-radius: 10px 0px 10px 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.msgUser {
+    font-size: 15px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.sendTime {
+    align-self: flex-end;
+    font-size: 9px;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.sendingImage {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.imgmsgCon {
+    background-color: #C1FFC1;
+    border-radius: 10px 0px 10px 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
