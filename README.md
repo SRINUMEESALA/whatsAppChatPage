@@ -1,12 +1,34 @@
-#WhatsApp Chat Page UI
-![WhatsApp Chat Page](https://asset.cloudinary.com/radhekrishn/40e94f71a8c94de6a2b52ffc0bd016f3 "Project UI")
+# WhatsApp Chat Page UI
+![WhatsApp Chat Page UI](https://res.cloudinary.com/radhekrishn/image/upload/v1666714559/Screenshot_from_2022-10-25_21-43-25_ddi5zc.png "Project UI")
 
+# Project Components
+This project includes five components which are intended to do different tasks.
+
+## ChatListGenComponent
+This component creates a list of chat heads in the left section of App.
+
+## ChatItemGenComponent
+This component creates interface UI of each user chat head from list of users.
+This will be utilized by ChatListGenComponent.
+If the number of users count increases then automatically the users will be adjusted in the specified section.You can scroll them and can find all.
+Scroll bar is hidden,so you can't see it.
+
+## ChatComponent
+This contains the code to send or receive messages from and to.This will utilizes the two more components to create chattings in the chatting secton.
+
+## msgFromUserComponent
+This component contains code to generate messages which the user intends to send to other person.He can send messages and images as well.
+Seperate code is notified using Rendering techniques.It contains sendMsg component to send messages.
+
+## msgToUserComponent
+This component contains code to generate messages which the second user(other) intends to send to first person(you).He can send messages and images as well.
+Seperate code is notified using Rendering techniques.It posseses RecieveMsg component to receive messages.
+
+### Used Bootstrap,Css for styling
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-![ALt text](https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821__340.jpg "MarineGEO logo")
 
 ## Available Scripts
 
