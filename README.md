@@ -4,10 +4,10 @@
 # Project Components
 This project includes five components which are intended to do different tasks.
 
-## ChatListGenComponent
+## ChatListGeneration component
 This component creates a list of chat heads in the left section of App.
 
-## ChatItemGenComponent
+## ChatItemGeneration component
 This component creates interface UI of each user chat head from list of users.
 This will be utilized by ChatListGenComponent.
 If the number of users count increases then automatically the users will be adjusted in the specified section.You can scroll them and can find all.
@@ -16,11 +16,11 @@ Scroll bar is hidden,so you can't see it.
 ## ChatComponent
 This contains the code to send or receive messages from and to.This will utilizes the two more components to create chattings in the chatting secton.
 
-## msgFromUserComponent
+## SendMeesage Component
 This component contains code to generate messages which the user intends to send to other person.He can send messages and images as well.
 Seperate code is notified using Rendering techniques.It contains sendMsg component to send messages.
 
-## msgToUserComponent
+## Recieve Message Component
 This component contains code to generate messages which the second user(other) intends to send to first person(you).He can send messages and images as well.
 Seperate code is notified using Rendering techniques.It posseses RecieveMsg component to receive messages.
 
