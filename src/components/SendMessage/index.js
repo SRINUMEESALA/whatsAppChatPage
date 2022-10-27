@@ -1,6 +1,6 @@
 import "./index.css"
 
-const SendMsg = (props) => {
+const SendMessage = (props) => {
     const { messageTo, url } = props
     return (
         <li className="eachMsg">
@@ -19,4 +19,4 @@ const SendMsg = (props) => {
     )
 }
 
-export default SendMsg;
+export default SendMessage;

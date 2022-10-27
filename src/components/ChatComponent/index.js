@@ -1,9 +1,9 @@
 import "./index.css"
-import SendMsg from "../msgFromUserComponent";
-import ReceiveMsg from "../msgToUserComponent";
+import SendMsg from "../SendMessage";
+import ReceiveMsg from "../ReceiveMessage";
 
 
-const Chatting = (props) => {
+const ChatComponent = (props) => {
     return (
         [<SendMsg messageTo={"Hi What's going on?"} />,
         <ReceiveMsg messageFrom={"Hi..."} url={"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=740&t=st=1666708456~exp=1666709056~hmac=1b0daea836dc47b610e4fbe80965b704b4acff49041a8b1463197548478e94ff"} />,
@@ -19,4 +19,4 @@ const Chatting = (props) => {
 }
 
 
-export default Chatting;
+export default ChatComponent;

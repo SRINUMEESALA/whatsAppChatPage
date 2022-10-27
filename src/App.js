@@ -1,7 +1,7 @@
-// import logo from './logo.svg';
+
 import "./App.css";
-import Chatting from "./components/chatComponent";
-import Chatlistgen from "./components/ChatListGenComponent";
+import ChatComponent from "./components/ChatComponent";
+import ChatListGeneration from "./components/ChatListGeneration";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
               <i className="fa-solid fa-magnifying-glass"></i>
             </div>
             <ul className="chatListCon mt-2 overflow-auto">
-              <Chatlistgen />
+              <ChatListGeneration />
             </ul>
           </div>
         </div>
@@ -47,7 +47,7 @@ function App() {
             </div>
           </div>
           <ul className="chattingCon overflow-auto">
-            <Chatting />
+            <ChatComponent />
           </ul>
           <div className="msgSendCon">
             <i class="fa-solid fa-face-smile"></i>

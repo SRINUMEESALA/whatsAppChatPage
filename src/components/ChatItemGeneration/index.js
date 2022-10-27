@@ -1,7 +1,7 @@
 import { Component } from "react";
 import "./index.css";
 
-class ChatItemgen extends Component {
+class ChatItemGeneration extends Component {
 
     render() {
         const { user } = this.props;
@@ -24,4 +24,4 @@ class ChatItemgen extends Component {
     }
 }
 
-export default ChatItemgen;
+export default ChatItemGeneration;
